@@ -1,19 +1,20 @@
 body{
     font-family:  'Open Sans', sans-serif;
-    padding: 10px;
-  
+    padding: 10px 10px 10px 10px;
+ 
 }
-
 
 #menu ul {
     padding:0px;
     margin:0px;
     background-color:white;
-    list-style:none;
+    list-style: none;
+    
 }
 
 #menu ul li { 
     display: inline;
+    
  }
 
 #menu ul li a {
@@ -24,35 +25,32 @@ body{
     background-color:white;
     color: #766F68;
     text-decoration: none;
-    border-bottom:3px solid white;
+    border-bottom:3px solid white;  
     
+      
 }
 
 #menu a.menu-dev {
    color: #D2872C;
 }
 
-
-
-img{
-    width: 500px;
-    align-items: center;
-    justify-content: center;   
-    position: flex;
-    margin-left: 50%;
-    margin-top: 1%;
-    height: fit-content;
-  
-
-    
-}
-
 h1{
     color: #635d57;
+    font-size: 40px;
+    align-items: auto;
+    text-align: auto;
+    margin-top: 250px;
+    display: fixed;
+
 }
 
 h2{
     color: #766F68;
+    font-size: 20px;
+    display: fixed;
+
+
+    
 }
 
 button{
@@ -60,25 +58,33 @@ button{
     color: white;
     padding: 10px;  
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
     cursor: pointer;
     margin-left: 10px;
-    margin-right:  10px;
+    margin-right: 10px;
     margin-top:  10px;
     margin-bottom:  10px;
+    font-size: 20px;
+    
 }
 
 .information{
-    width: 50%;
+    position: fixed;
+    float: right;
+    border-width:auto;
+    width:auto;
+    height: auto;
+    align-content: center;
     align-items: center;
-    justify-content: center;   
-    position: flex;
-    margin-right: 50%;
-    margin-top: 1%;
+    
 }
 
-#container{
-    display: inline-block;
-    justify-content: center;
+img{
+    float: right;
+    border-width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     align-items: center;
 }
+
